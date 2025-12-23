@@ -35,7 +35,7 @@ App.BaseDirectory=./natural-selection-2/4940/
 App.WorkingDir=4940
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=
-App.CommandLineArgs=-ServerName "{{ServerName}}" -Port "{{$GamePort}}" -QueryPort={{$QueryPort}} -limit "{{MaxServerPlayers}}"
+App.CommandLineArgs=-Port "{{$GamePort}}" -QueryPort={{$QueryPort}} -limit "{{MaxServerPlayers}}"
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
 App.CommandLineParameterFormat=-{0}={1}
