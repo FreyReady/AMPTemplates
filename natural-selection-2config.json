@@ -1,0 +1,57 @@
+[
+	{
+        "DisplayName": "Server Name",
+        "Category": "Server Settings",
+        "Description": "Sets the name of the server as shown in the Steam server browser",
+        "Keywords": "name,ServerName",
+        "FieldName": "ServerName",
+        "InputType": "text",
+        "ParamFieldName": "ServerName",
+        "DefaultValue": "AMP Powered Natural Selection 2",
+        "EnumValues": {}
+    },
+    {
+    {
+        "DisplayName": "Player Limit",
+        "Category": "Server Settings",
+        "Description": "Sets the maximum number of players that may connect to the server at one time",
+        "Keywords": "maximum,players,limit,MaxServerPlayers",
+        "FieldName": "$MaxUsers",
+        "InputType": "number",
+        "MinValue": "1",
+        "MaxValue": "20",
+        "ParamFieldName": "MaxServerPlayers",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": "20",
+        "Placeholder": "20",
+        "Suffix": "players",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Server Password",
+        "Category": "Server Settings",
+        "Description": "Sets the password for players to join the server. Default is no password",
+        "Keywords": "server,password,ServerPassword",
+        "FieldName": "ServerPassword",
+        "InputType": "password",
+        "ParamFieldName": "ServerPassword",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Admin Password",
+        "Category": "Server Settings",
+        "Description": "Sets the password for players to become a whitelisted admin in-game. Default is no password",
+        "Keywords": "admin,password,AdminPassword",
+        "FieldName": "AdminPassword",
+        "InputType": "password",
+        "ParamFieldName": "AdminPassword",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    }
+]

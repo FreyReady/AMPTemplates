@@ -1,0 +1,11 @@
+[
+    {
+        "UpdateStageName": "Natural Selection 2 Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "4940",
+        "UpdateSourceArgs": "4940",
+        "ForceDownloadPlatform": "Linux",
+        "SkipOnFailure": false
+    }
+]
