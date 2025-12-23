@@ -54,32 +54,4 @@
         "DefaultValue": "",
         "EnumValues": {}
     }
-	    {
-        "DisplayName": "Mods",
-        "Category": "Server Settings",
-        "Description": "Workshop IDs of mods to load",
-        "Keywords": "mods",
-        "FieldName": "Mods",
-        "InputType": "text",
-        "ParamFieldName": "mods",
-        "IncludeInCommandLine": true,
-        "SkipIfEmpty": true,
-        "DefaultValue": "117887554",
-		"Placeholder": "117887554"
-        "EnumValues": {}
-    }
-	{
-        "DisplayName": "Map",
-        "Category": "Server Settings",
-        "Description": "",
-        "Keywords": "admin,password,AdminPassword",
-        "FieldName": "Map",
-        "InputType": "text",
-        "ParamFieldName": "Map",
-        "IncludeInCommandLine": true,
-        "SkipIfEmpty": true,
-        "DefaultValue": "ns2_summit",
-		"Placeholder": "ns2_summit"
-        "EnumValues": {}
-    }
 ]
