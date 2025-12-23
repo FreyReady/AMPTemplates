@@ -7,6 +7,7 @@
         "FieldName": "ServerName",
         "InputType": "text",
         "ParamFieldName": "ServerName",
+        "IncludeInCommandLine": true,
         "DefaultValue": "AMP Powered Natural Selection 2",
         "EnumValues": {}
     },
@@ -20,7 +21,7 @@
         "MinValue": "1",
         "MaxValue": "20",
         "ParamFieldName": "MaxServerPlayers",
-        "IncludeInCommandLine": true,
+		"IncludeInCommandLine": true,
         "SkipIfEmpty": true,
         "DefaultValue": "20",
         "Placeholder": "20",
