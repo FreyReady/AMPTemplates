@@ -12,6 +12,13 @@
         "Ref": "QueryPort",
         "Name": "Query Port",
         "Description": "Port for query traffic"
+    },
+	{
+        "Protocol": "UDP",
+        "Port": 8766,
+        "Ref": "Steam",
+        "Name": "Steam Master Server List",
+        "Description": "Port for Steam Master List"
     }
 	
 ]
