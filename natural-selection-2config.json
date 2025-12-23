@@ -11,7 +11,6 @@
         "EnumValues": {}
     },
     {
-    {
         "DisplayName": "Player Limit",
         "Category": "Server Settings",
         "Description": "Sets the maximum number of players that may connect to the server at one time",
